@@ -1,0 +1,253 @@
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.container{
+	max-width: 75em;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+h1 {
+	font-size: 1.88em;
+	width: 100%;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+	font-size: 1.13em;
+}
+h4 {
+	font-size: 0.75em;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+    padding: 0 30px;
+}
+
+/*The widths are in a percentage!*/
+header {
+	height: 100%;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+}
+
+header h1 {
+
+	margin: 0;
+	padding: 38px 0;
+
+}
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+
+	padding: 2.88 0;
+
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1em;
+	padding: 0 0.7em;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+}
+
+.main-image {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.main-title {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+}
+.main-title h3 {
+	text-align: center;
+	padding: 5px 0;
+	color: #77a466;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.main-title p {
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+	height: 100%;
+	border-top: 1px solid #eee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.section-one h4 {
+	padding: 10px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.section-two h4,
+.section-three h4 {
+	padding: 10px 30px;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 16px;
+	line-height: 21px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.address {
+	font-size: 16px;
+	line-height: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	height: 100%;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+@media (min-width: 1200px) {
+  height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+  }
