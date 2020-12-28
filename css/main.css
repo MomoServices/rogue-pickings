@@ -55,7 +55,9 @@ header {
 
 header h1 {
 	margin: 0;
-	
+	text-align: center;
+	padding: 0.5em 0 0.5em 0;
+	border-bottom: 3px solid #77a466;
 
 
 }
@@ -68,7 +70,7 @@ padding: 0.5em 0 1em 0;
 }
 header nav ul {
 	margin: 0;
-	padding: 0 2em;
+	padding: 2em 2em;
 	list-style-type: none;
 
 }
