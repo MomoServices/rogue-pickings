@@ -54,8 +54,8 @@ header {
 }
 
 header h1 {
-
 	margin: 0;
+	
 
 
 }
@@ -64,7 +64,7 @@ header h1 span {
 }
 
 header nav {
-padding: 0;
+padding: 0.5em 0 1em 0;
 }
 header nav ul {
 	margin: 0;
@@ -74,6 +74,7 @@ header nav ul {
 }
 header nav ul li {
 	text-transform: uppercase;
+	padding: 0 0 2em 0;
 	font-weight: 700;
 	font-size: 1em;
 
