@@ -45,7 +45,8 @@ p {
 header {
 	height: 100%;
 	display: flex;
-	border-bottom: 3px solid #77a466;
+	border-bottom: 0.2em solid #77a466;
+	width: 100%;
 	margin: 0 auto;
 	justify-content: center;
 	align-items: center;
@@ -57,7 +58,7 @@ header h1 {
 	margin: 0;
 	text-align: center;
 	padding: 0.5em 0 0.5em 0;
-	border-bottom: 3px solid #77a466;
+	border-bottom: 0.1em solid #77a466;
 
 
 }
@@ -186,6 +187,26 @@ footer span {
 	font-size: 14px;
 
 }
+
+@media (min-width: 768px) {
+		.section-one, .section-two, .section.three {
+			flex-basis: 30%;
+			line-height: 1.5em;
+			text-align: left;
+			align-items: center;
+			width: 30%;
+			height: 300px;
+			justify-content: center;
+
+
+		}
+
+		.section-one, .section-two {
+			border-right: 1px solid #eee;
+			padding-right: 30px;
+		}
+}
+
 @media (min-width: 1200px) {
   height: 100%;
 	width: 100%;
